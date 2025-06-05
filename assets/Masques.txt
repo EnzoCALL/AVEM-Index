@@ -1,0 +1,65 @@
+SWAP:
+Toujours check BO "particularité" et "admin->AVS"
+Verifier type maintenance sur kimser (parc equipement)
+ -Maintenance - ES Transport = Livraison par Chronopost entre 8h et 13h avec restitution du TPE KO
+au transporteur (Echange). Proposer la livraison en point relai.
+ -Maintenance – Site = Un technicien se rend sur place afin de procéder à un échange (si
+nécessaire), un paramétrage, une assistance. Les plages horaires d’interventions dépendent de la
+DO
+ -Maintenance – Assistance Téléphonique = ATT (on peut pas SWAP, e.g. pas notre TPE)
+
+SWAP Particularités:
+ -CALG (Languedoc) : en ES Transport = Lancer un swap en retour différé.
+                     Noter com mail + code fiche accepteur -> envoyer mail au RU pour générer BDR : konecta-att-ru@avem-groupe.com
+ -CADS (Des Savoie) : Maintenance - Dépannage à J = Dépannage jours même
+ -CAAM (Anjou Maine) : Si complaisance lors du SWAP, doit passer par la banque (voir DO)
+
+Echange de modele lors d'un SWAP possible:
+ - Allez sur BO > Fonctionnel > Complaisance. Le modele peut changer mais pas le type de TPE (portable vers fixe..)
+
+SWAP le samedi:
+ -mentionner « SWAP SPECIAL SAMEDI » dans le sujet + commentaire de l’historisation et s’il a été transmis au service dédié avant 16h Vendredi
+
+Recherche point-relai (COCHER RELAI PICKUP) : https://www.chronopost.fr/expeditionAvanceeSec/ounoustrouver.html
+
+
+===MASQUES TRANSPORT & SITE===
+
+DIAGNOSTIC :
+-----------------------INFO GTK PFM-----------------------------
+MOTIF PANNE : 
+LISTE DES LOGICIELS ET N° ACCES PRESENTS ET MAJ SI BESOIN : (Copier depuis parc)
+INTITULÉ TICKET + VILLE : (Enseigne+Ville)
+IP FIXE ou DHCP : (si IP fixe renseigner l’adressage complet, si pas d'info: /)
+LIAISON CAISSE : (NON / Série / USB / IP)
+LIAISON CHEQUE : (Mode de gestion logiciel chèque / NON)
+Le commerçant doit garder son câble ethernet, liaison caisse et/ou chèque + cartouche
+-----------------------------------------------------------------------
+ADRESSE D’INTERVENTION SOUHAITEE : (Pour masque site, sinon supprimer)
+DATE DE LIVRAISON SOUHAITEE PAR LE COMMERCANT (livraison entre 08h00 et 13h00) : (Date+HO)
+SPECIAL SAMEDI : (Uniquement si demande Vendredi avant 16h/voir DO)
+
+
+===MASQUES MES===
+
+Uniquement pour nouveau dossier & TPE récent de moins de 30j.
+Relances MES : https://faqact.avem-groupe.com/relmesat.oft - !!! Le mail n'est pas bon, changer pour: konecta-att-ru@avem-groupe.com
+
+A: konecta-att-ru@avem-groupe.com
+Objet: RELANCE MES - Fiche Accepteur FICHE_ACCEPTEUR
+
+Bonjour,
+
+Je vous remercie d’effectuer la relance de MES (NO_de_DEMANDE KIMSER) pour l’Accepteur en objet.
+
+Date de la MES : (jj/mm/aaaa)
+Enseigne : (Enseigne mentionnée sur KIMSER et confirmée par le commerçant)
+Matériel : (Modèle TPE)
+S/N du TPE : (N° de série du terminal)
+Liaison Caisse : (NON / Série / USB / IP)
+Motif de la relance : (Mentionner le motif et les vérifications/manipulations réalisées)
+Adresse de livraison : (Adresse de livraison complète)
+Téléphone Portable : (Téléphone portable de contact)
+Date de livraison souhaitée : (jj/mm/aaaa)
+
+Cordialement.
