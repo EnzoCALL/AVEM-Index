@@ -69,8 +69,9 @@
 		document.querySelectorAll("tr").forEach((tr) => { tr.style.display = ""; });
 		if(guide == true)		{ document.getElementById('right').src = "./tables/weapons/" + x + ".html"; }
 		else if (guide == false){ document.getElementById('right').src = "./tables/" + x + ".html";
-								  document.getElementById('left').contentWindow.document.getElementById("classList").selectedIndex = 2;	};
-		if (x != 'Poogie' && x!= 'Halk'){ document.getElementById('left').contentWindow.document.getElementById("petList").selectedIndex = 2; };
+		//						  document.getElementById('left').contentWindow.document.getElementById("classList").selectedIndex = 2;
+		};
+		//if (x != 'Poogie' && x!= 'Halk'){ document.getElementById('left').contentWindow.document.getElementById("petList").selectedIndex = 2; };
 	};
 	
 	function showReset(x, guide) {
@@ -79,8 +80,9 @@
 		document.querySelectorAll("tr").forEach((tr) => { tr.style.display = ""; });
 		if(guide == true)		{ document.getElementById('right').src = "./tables/weapons/" + x + ".html"; }
 		else if (guide == false){ document.getElementById('right').src = "./tables/" + x + ".html";
-								  document.getElementById('left').contentWindow.document.getElementById("classList").selectedIndex = 2;	};
-		if (x != 'Poogie' && x!= 'Halk'){ document.getElementById('left').contentWindow.document.getElementById("petList").selectedIndex = 2; };
+		//						  document.getElementById('left').contentWindow.document.getElementById("classList").selectedIndex = 2;
+		};
+		//if (x != 'Poogie' && x!= 'Halk'){ document.getElementById('left').contentWindow.document.getElementById("petList").selectedIndex = 2; };
 	};
 	
 	function selectTable(selectorID) {
@@ -162,6 +164,18 @@
 			document.getElementById('left').style.width="10%";
 			document.getElementById('right').style.width="89.6%";
 		}
+	}
+	
+	function tlx(source) {
+		  var copyText = source;
+		  navigator.clipboard.writeText(copyText);
+		  alert("Lien TLX copié sur presse-papier. Collez directement le lien sur la nouvelle page!");
+		  window.open('', '_blank');
+	}
+	
+	function copyInner(inner) {
+		var mask = inner.replace(/\<br\>/g," ");
+		navigator.clipboard.writeText(mask);
 	}
 	
 	function toggleTitle(title) {
