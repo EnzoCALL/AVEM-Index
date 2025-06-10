@@ -22,11 +22,11 @@
 	 
 	 td.npr	{background-color:rgb(88,88,110); text-align:center; padding-right:10px;}
 	 
-	 td.gsi {background-color:rgb(140, 121, 106); padding: 0 5px 0 5px; width:35%;}
-	 td.jsi {background-color:rgba(145, 135, 127,0.95); padding: 0 5px 0 5px; width:20%;}
-	 td.nsi	{background-color:rgb(148,140,140); height:10%; width:20%; text-align:center;}
+	 td.gsi {background-color:rgb(156,146,140); padding: 0 5px 0 5px; width:35%;}
+	 td.jsi {background-color:rgba(149,143,139,0.95); padding: 0 5px 0 5px; width:20%; text-align: center;}
+	 td.nsi	{background-color:rgba(132,129,129,0.95); height:10%; width:20%; text-align:center;}
 	 td.msi	{background-color:rgb(88,88,110); height:10%; width:20%; text-align:center;}
-	 td.bsi	{background-color:rgba(148,150,150,0.95);}
+	 td.bsi	{background-color:rgba(120,120,120,0.95); text-align: center;}
 	 
 	 td.gch {background-color:rgb(80,90,130); padding: 0 5px 0 5px; width:10%;}
 	 td.jch {background-color:rgba(85,85,115,0.95); padding: 0 5px 0 5px; width:10%; text-align:center;}
