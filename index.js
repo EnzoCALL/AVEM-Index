@@ -92,6 +92,15 @@
 		if(selectorID == 'classList'){ show(selectedTable, true); };
 		if(selectorID == 'petList'){ show(selectedTable, false); };
 	};
+	
+	function selectAsset(selectorID) {
+		let frame = document.getElementById('left');
+		let selectBox = frame.contentWindow.document.getElementById(selectorID);
+		var selectedAsset = selectBox.options[selectBox.selectedIndex].value;
+		document.getElementById('searcher').value = "";
+		document.querySelectorAll("tr").forEach((tr) => { tr.style.display = ""; });
+		document.getElementById('right').src = "./assets/" + selectedAsset + ".pdf";
+	};
 /*
 	function searchSkills(input) {
 		search = input;
