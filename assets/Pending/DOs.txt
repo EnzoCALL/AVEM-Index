@@ -1,0 +1,88 @@
+SCRIPT CA
+
+CAAP Alpes Provence / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_31.htm
+Alsace Vosges / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_45.htm
+Anjoue Maine / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_35.htm
+Aquitaine / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_6.htm
+Atlantique Vendée / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_7.htm
+Brie Picardie / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_36.htm
+Centre-Est / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_8.htm
+Centre France BANQUE CHALUS / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_26.htm
+Centre-Ouest / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_28.htm
+Champagne Bourgogne / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_9.htm
+Charente-Maritime Deux-Sevres / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_10.htm
+Charente-Périgord / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_29.htm
+Côtes d'Armor / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_11.htm
+Des Savoie / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_12.htm
+Finistère / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_13.htm
+Franche-Comté / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_32.htm
+Ile de France / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_33.htm
+Ille-Et-Vilaine / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_14.htm
+Languedoc / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_49.htm
+Loire Haute-Loire / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_30.htm
+Morbihan / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_15.htm
+Nord-De-France / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_20.htm
+Nord Est / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_37.htm
+Nord Midi-Pyrénées / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_38.htm
+Normandie / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_16.htm
+Normandie-Seine / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_39.htm
+Pyrénées Gascogne / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_41.htm
+Sud Méditerranée / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_40.htm
+Sud Rhone Alpes / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_17.htm
+De la Touraine et du Poitou / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_18.htm
+Val de France / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_34.htm
+
+SCRIPT
+
+Anciens clients somaintel / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_53.htm
+Autre banque cirra / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_50.htm
+Autre banque MONECAM / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_51.htm
+Banque Chalus / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_26.htm
+BNP PARIBAS / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_42.htm
+BSP LCL / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_21.htm
+Credit coopératif / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_22.htm
+Crédit maritime / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_23.htm
+La banque postale / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_25.htm
+LCL / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_19.htm
+Groupe crédit du nord / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_27.htm
+Progecarte Ingenico / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_43.htm
+Progecarte Verifone / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_44.htm
+SG Monetia / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_54.htm
+
+SANTE
+
+EDC Santé / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_24.htm
+Intelio / https://faqact.avem-groupe.com/intelyoprocatt_fichiers/gif_1.htm
+NETMEDICOM / https://faqact.avem-groupe.com/santeffi_fichiers/gif_2.htm
+OCT Resopharma / https://faqact.avem-groupe.com/santeffi_fichiers/gif_3.htm
+Santeffi GCA / https://faqact.avem-groupe.com/santeffi_fichiers/gif_1.htm
+VITAL'ACT 3S / https://faqact.avem-groupe.com/vtalactprocatt_fichiers/gif_1.htm
+
+SVP TELECOLLECTE
+
+SVP TELECO ALBI / https://faqact.avem-groupe.com/dokko_fichiers/gif_4.htm
+SVP TELECO LCL / https://faqact.avem-groupe.com/svplcl_fichiers/gif_1.htm
+
+MPOS ANDROID
+
+LCL Monem Resto / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_5.htm
+Up2Pay Mobile / https://faqact.avem-groupe.com/SmartTPEAccueil_fichiers/gif_1.htm
+Up2Pay Caisse digitale / https://faqact.avem-groupe.com/SmartMAGAccueil_fichiers/gif_1.htm
+Up2Pay Restaurant / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_52.htm
+
+AUTRE
+
+American Express / https://faqact.avem-groupe.com/somclientsprocatt_fichiers/gif_59.htm
+
+CAMPAGNES DIVERSES
+
+Certificat Ingetrust / https://faqact.avem-groupe.com/camptrustingatt_fichiers/gif_1.htm
+Espace PRO / https://faqact.avem-groupe.com/espaceproprocatt_fichiers/gif_1.htm
+
+PROCEDURES ANNEXES
+
+CNCE3 / https://faqact.avem-groupe.com/reclacnce_fichiers/gif_1.htm
+CONNECS / https://faqact.avem-groupe.com/conecssprocatt_fichiers/gif_1.htm
+X3CB / https://faqedc.avem-groupe.com/3XCB/3xcbfaq_fichiers/gif_1.htm
+Evenement+ / https://faqact.avem-groupe.com/evplus_fichiers/gif_1.htm
+FINTRAX Group / https://faqact.avem-groupe.com/FINTRAXAccueil_fichiers/gif_2.htm
