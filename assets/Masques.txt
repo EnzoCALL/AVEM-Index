@@ -29,7 +29,7 @@ DIAGNOSTIC :
 -----------------------INFO GTK PFM-----------------------------
 MOTIF PANNE : 
 LISTE DES LOGICIELS ET N° ACCES PRESENTS ET MAJ SI BESOIN : (Copier depuis parc)
-INTITULÉ TICKET + VILLE : (Enseigne+Ville)
+INTITULÉ TICKET + VILLE : (RaisonSociale+CP+Ville)
 IP FIXE ou DHCP : (si IP fixe renseigner l’adressage complet, si pas d'info: /)
 LIAISON CAISSE : (NON / Série / USB / IP)
 LIAISON CHEQUE : (Mode de gestion logiciel chèque / NON)
@@ -63,3 +63,25 @@ Téléphone Portable : (Téléphone portable de contact)
 Date de livraison souhaitée : (jj/mm/aaaa)
 
 Cordialement.
+
+
+===MASQUES COMPLAISANCE===
+
+Toute demande de changement de configurateur doit faire l’objet préalable d’une historisation sur KIMSER avec les données suivantes 
+-Nature : Dépannage technique 
+-Objet : 010325 - Assistance fonctionnelle
+Une fois historiser, envoyer le mail ci-dessous, attendez la réponse du RU, ensuite procéder à un SWAP classique (donc, prendre information COM avant de finir l'appel).
+
+
+A: konecta-att-ru@avem-groupe.com
+Objet : Masque pour demande de complaisance 
+
+Bonjour à tous, 
+
+Afin d’harmoniser vos demandes d’échange de matériel suite complaisance, merci à partir de ce jour d’utiliser le masque ci-dessous svp 
+
+Enseigne : 
+Matériel / Modèle TPE  détenu : 
+S/N du TPE : 
+Vers quel modèle souhaite t’il passer : 
+Pouvez-vous changer la config s'il vous plait.
