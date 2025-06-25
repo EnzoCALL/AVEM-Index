@@ -184,6 +184,7 @@
 	
 	function copyInner(inner) {
 		var mask = inner.replace(/\<br\>/g," ");
+		mask =  mask.replace(/<h[^>]*>.*?<\/h>/gi, '').trim();
 		navigator.clipboard.writeText(mask);
 	}
 	
