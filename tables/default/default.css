@@ -2,7 +2,7 @@
 	 body	{height:100%; width:100%; margin:0; padding:0; background-color:rgba(0,0,0,0); overflow:auto; color:transparent;}
 	 small  {z-index: -5;}
 	 
-	 .field	{height:4.5vh; width:96.5%; margin:0.5%; font:100% Arial; text-align:left; padding-left: 10px; background-color:rgba(60,60,80,0); color:white; border-radius:5px; overflow:auto;}
+	 .field	{height:4.5vh; width:96.5%; margin:0.5%; text-align:left; padding-left: 10px; background-color:rgba(60,60,80,0); color:white; border-radius:5px; overflow:auto;}
 	 .field2{height:4.5vh; width:98.3%; margin:0.1%; font:100% Arial; text-align:left; padding-left: 10px; background-color:rgba(60,60,80,0); color:white; border-radius:5px; overflow:auto;}
 
 	 .link  {color:#ffd97f; cursor:pointer;}
@@ -25,10 +25,13 @@
 	 td.t	{background-color:rgba(85,85,115,0.95)}
 	 td.s	{background-color:rgba(148,150,150,0.95); width:10%; border: none;}
 	 td.n	{background-color:rgb(88,88,110); text-align:right; padding-right:10px;}
-	.in     {background-color:rgba(150,150,180, 0.5); margin-bottom:3px; margin-top:3px; margin-right:5px;}
-	.in th	{background-color:rgba(120,120,150,0.95);}
-	.in td  {background-color: rgba(90,90,110,0.95); padding-left:5px; padding-right: 5px;}
+	.masque     {background-color:rgba(150,150,180, 0.5); margin-bottom:3px; margin-top:3px; margin-right:3px; margin-left:3px; width:100%; height:auto;}
+	.masque td  {background-color: rgba(106, 106, 106, 0.95); padding-left:5px; padding-right: 5px; color:white;}
+	.in     {background-color:rgba(150,150,180, 0.5); margin-bottom:3px; margin-top:3px; margin-right:3px; margin-left:3px; width:100%; height:auto;}
+	.in td  {background-color: rgba(148,150,150,0.95); padding-left:5px; padding-right: 5px; color:white; line-height: 2; text-align: left; border-top: 3px solid rgba(106, 106, 106, 0.95);}
 	.intro  {width:10%;}
+	.highlight {color:#ffd97f;}
+	.highlightnote {color:#ff11ff;}
 	.sep 	{height:10px;}
 	.sepTitle{height:10px;} 
 			.but 	{height:4.5vh; width:98%; padding-left:5px; font:100% Arial; line-height:normal; text-align:center; cursor:pointer; border:2px solid; border-color:white; background-color:rgb(60,60,80); color:white; border-radius:5px; overflow:auto;}
