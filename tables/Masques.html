@@ -8,69 +8,195 @@
 
 </head><body>
 
-<table id="menu1" style="width:49%; float:left; margin-right:0.4%;" cellspacing="0" cellpadding="1" border="1">
 
+
+<table id="menu1" style="width:49%; float:left; margin-right:0.4%;" cellspacing="0" cellpadding="1" border="1">
 	<colgroup>
 		<col><col><col>
 	</colgroup>
-	
 	<tbody>
-	
-	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">-SWAP : Masque Transport & Site-</th>	</tr>						
+	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">HISTORISATION : DAR</th>	</tr>						
 		<tr class="sep" style=""></tr>
 		
-		<tr class="l"><td class="s"><div class="field" style="height:65vh; line-height:2.1;" id="masque1">
-DIAGNOSTIC :<br>
------------------------INFO GTK PFM-----------------------------<br>
-MOTIF PANNE : <br>
-LISTE DES LOGICIELS ET N° ACCES PRESENTS ET MAJ SI BESOIN : (Copier depuis parc)<br>
-INTITULÉ TICKET + VILLE : (RaisonSociale+CP+Ville)<br>
-IP FIXE ou DHCP : (si IP fixe renseigner: IP, Masque sous réseau, Passerrelle, DNS 1, DNS 2)<br>
-LIAISON CAISSE : (NON / Série / USB / IP)<br>
-LIAISON CHEQUE : (Mode de gestion logiciel chèque / NON)<br>
-Le commerçant doit garder son câble ethernet, liaison caisse et/ou chèque + cartouche<br>
------------------------------------------------------------------------<br>
-ADRESSE D’INTERVENTION SOUHAITEE : (Pour masque site, sinon supprimer)<br>
-DATE DE LIVRAISON SOUHAITEE PAR LE COMMERCANT (livraison entre 08h00 et 13h00) : (Date+HO)<br>
-SPECIAL SAMEDI : (Uniquement si demande Vendredi avant 16h (selon DO))<br>
+		<tr class="l"><td class="s"><div class="field" style="height:40vh; line-height:2.1;">
+<table class="masque"><tbody><tr><td id="masque1">
+D : COM appel car <h class="highlight">(Raison de l'appel, info sur l'était du TPE à l'instant T)</h><br>
+- <h class="highlight">(Copier la ligne du TPE concerné depuis le parc matériel (Modèle + SN))</h><br>
+A : <h class="highlight">( Manipulation > Résultat ( > Conclusion tirée ) - Une manipulation par ligne</h><br>
+R : TPE fonctionnel <h class="highlight">/ SWAP / envoi pièce / info OK / redirection vers *** / transfert demande vers *** / envoi mail vers *** / PA à *** / ...</h><br>
+Demande complémentaire : NON <h class="highlight">(OUI : Si nécessite manipulation, refaire le DAR en dessous du premier)</h><br>
+</td></tr></tbody></table>
+<table class="in"><tbody>
+<tr><td>
+FICHE POUBELLE:<br>
+Si authentification impossible (pas de N°Commercant, COM pas client AVEM, appel HS..), faire:<br>
+-Nombre du mois + 00000 (exemple: pour Juin, 0600000) pour le numéro commercant<br>
+-Nature de la demande: Appel Hors Perimetre<br>
+-Objet: 010211 pour HS / 010209 pour non-client 
+</td></tr><tr><td>
+REITERATION:<br>
+Demande déja faite sous 7 jours, décloturer l'historisation concernée, créer un PEC pour historiser, puis recloturer.
+</td></tr><tr><td>
+ANDROID:<br>
+Ne pas traiter les demandes sur Android - Historiser, puis créer un PA pour rappel (préciser ANDROID dans le sujet).
+</td></tr><tr><td>
+CONSO:<br>
+1 carton = 20 rouleaux / Min 2 cartons, max 4 cartons / Code: *57* pour RLX.<br>
+Rediriger vers banque si pas de TPE en parc, ou si dernière commande inférieure à 30j.<br>
+Si commande HS +3j : Décloturer histo concernée, remplacer commentaire par: "Commande non recue + copier info ligne derniere commande", créer un PA, destinataire: transport/flux (TFX), Début/Fin: "1" sur les cases horaires, et valider.
+</td></tr><tr><td>
+FILES:<br>
+TELECO: -> Nature: Service Telecollecte -> Objet: *téléco*. (Aucune manipulation sauf changement heure télécollecte)<br>
+CONSO: -> Nature: Dépannage Technique -> Objet: *conso*. (Aucune manipulation, uniquement commande de rouleaux)<br>
+FORMA: -> Nature: Dépannage Technique -> Objet: *form* (Information/Navigation uniquement, sinon diriger ATT)<br>
+TECH: -> Selon l'appel N2, voir onglet "Codes Objet".
+</td></tr><tr><td>
+APPEL SORTANT:<br>
+Pas d'historisation, utiliser seulement les actions sur la mission directement.<br>
+Appel KO : action "Appel Client", Accepteur indisponible, Affection de la tache, se l'affecter, RDV Outlook pour rappel.<br>
+Accident mineur : action "Appel Client", PUIS accident mineur, PUIS toutes les taches en OK (sauf commentaires)
+</td></tr></tbody></table>
 </div>
-			<button class="searchbut" onclick="parent.copyInner(document.getElementById('masque1').innerHTML);" >Copier le masque</button> 
+			<button class="searchbut" onclick="parent.copyInner(document.getElementById('masque1').innerHTML);" >Récupérer le masque</button> 
 		</td></tr>
 			<tr class="sep" style=""></tr>
-		<tr class="l" style="height:5px"><td class="g" rowspan="1" style="width:20%; background-color:rgb(240,120,30);"></td></tr>
-			
 	</tbody>
 </table>
 
-<table id="menu2" style="width:49%; float:initial;" cellspacing="0" cellpadding="1" border="1">
 
+
+<table id="menu2" style="width:49%; float:initial;" cellspacing="0" cellpadding="1" border="1">
 	<colgroup>
 		<col><col><col>
 	</colgroup>
-	
 	<tbody>
-		
-	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">-SWAP : Masque MES-</th>	</tr>						
+	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">SWAP : Masque Transport & Site</th>	</tr>						
 		<tr class="sep" style=""></tr>
+		<tr class="l"><td class="s"><div class="field" style="height:40vh; line-height:2.1;">
+<table class="masque"><tbody><tr><td id="masque2">
+DIAGNOSTIC : <h class="highlight">(Historisation de l'appel)</h><br>
+-----------------------INFO GTK PFM-----------------------------<br>
+MOTIF PANNE : <br>
+LISTE DES LOGICIELS ET N° ACCES PRESENTS ET MAJ SI BESOIN : <br><h class="highlight">(Copier la liste des logiciels depuis le parc matériel)</h><br>
+INTITULÉ TICKET + VILLE : <h class="highlight">(RaisonSociale+CP+Ville)</h><br>
+IP FIXE ou DHCP : DHCP <h class="highlight">(IP fixe: renseigner IP, Masque sous réseau, Passerrelle, DNS 1, DNS 2)</h><br>
+LIAISON CAISSE : NON <h class="highlight">(OUI: Série / USB / IP)</h><br>
+LIAISON CHEQUE : NON <h class="highlight">(OUI: Mode de gestion logiciel chèque)</h><br>
+Le commerçant doit garder son câble ethernet, liaison caisse et/ou chèque + cartouche<br>
+-----------------------------------------------------------------------<br>
+DATE DE LIVRAISON SOUHAITEE PAR LE COMMERCANT (livraison entre 08h00 et 13h00) : <h class="highlight">(Date+HO)</h><br>
+SPECIAL SAMEDI : NON <h class="highlight">(OUI si demande Vendredi avant 16h - varie selon DO)</h><br>
+<h class="highlight">ADRESSE D’INTERVENTION SOUHAITEE : (A RAJOUTER POUR LIVRAISON SITE)</h><br>
+</td></tr></tbody></table>
+<table class="in"><tbody>
+<tr><td>
+Toujours vérifier la DO "particularité" (à gauche) et "Administratif -> AVS" !
+</td></tr><tr><td>
+MAINTENANCES:<br>
+"ES Transport" : Livraison Chronopost (8h-13h) - restitution du TPE KO immédiat - Proposer le point relais !<br>
+"Site" : Un technicien se rend sur place pour intervention. Plages horaires interventions dépendent de la DO.<br>
+"Assistance Téléphonique" : ATT uniquement (ne jamais SWAP, exemple; TPE non concerné par AVEM)
+</td></tr><tr><td>
+PARTICULARITES:<br>
+"Languedoc" : Pour ES Transport, SWAP toujours en retour différé + Noter le code fiche accepteur et le mail du COM puis envoyer mail au RU pour générer le BDR :  konecta-att-ru@avem-groupe.com<br>
+"Des Savoie" : Maintenance toujours en "Dépannage à J" , le COM est dépanné le jours même par un technicien à proximité.<br>
+"Anjou Maine" : Si complaisance lors du SWAP, passage par la banque obligatoire (voir la DO).
+</td></tr><tr><td>
+SAMEDI:<br>
+En plus de la mention du masque, rajouter "SWAP SPECIAL SAMEDI" dans le sujet - SWAP doit être fait avant 16h (si vendredi).
+</td></tr><tr><td>
+COMPLAISANCE:<br>
+Possible lors d'un SWAP - Allez sur BO > Fonctionnel > Complaisance. Voir masque complaisance.
+</td></tr><tr><td>
+POINT-RELAIS:<br>
+(COCHER CASE RELAIS PICKUP) : <a onclick="window.open('https://www.chronopost.fr/expeditionAvanceeSec/ounoustrouver.html', '_blank');" class="link">https://www.chronopost.fr/expeditionAvanceeSec/ounoustrouver.html</a>
+</td></tr></tbody></table>
+</div>
+			<button class="searchbut" onclick="parent.copyInner(document.getElementById('masque2').innerHTML);" >Récupérer le masque</button> 
+		</td></tr>
+			<tr class="sep" style=""></tr>
+	</tbody>
+</table>
 
-		<tr class="l"><td class="s"><div class="field" style="height:65vh; line-height:2.1;" id="masque2">
+
+
+<table id="menu3" style="width:49%; float:left; margin-right:0.4%;" cellspacing="0" cellpadding="1" border="1">
+	<colgroup>
+		<col><col><col>
+	</colgroup>
+	<tbody>
+	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">SWAP : Masque MES</th>	</tr>						
+		<tr class="sep" style=""></tr>
+		<tr class="l"><td class="s"><div class="field" style="height:40vh; line-height:2.1;">
+<table class="masque"><tbody><tr><td id="masque3">	
 Bonjour,<br>
 <br>
-Je vous remercie d’effectuer la relance de MES (NO_de_DEMANDE KIMSER) pour l’Accepteur en objet.<br>
+Je vous remercie d’effectuer la relance de MES <h class="highlight">(N°DEMANDE KIMSER)</h> pour l’Accepteur en objet.<br>
 <br>
-Date de la MES : (jj/mm/aaaa)<br>
-Enseigne : (Enseigne mentionnée sur KIMSER et confirmée par le commerçant)<br>
-Matériel : (Modèle TPE)<br>
-S/N du TPE : (N° de série du terminal)<br>
-Liaison Caisse : (NON / Série / USB / IP)<br>
-Motif de la relance : (Mentionner le motif et les vérifications/manipulations réalisées)<br>
-Adresse de livraison : (Adresse de livraison complète)<br>
-Téléphone Portable : (Téléphone portable de contact)<br>
-Date de livraison souhaitée : (jj/mm/aaaa)<br>
+Date de la MES : <h class="highlight">(JJ/MM/AAAA)</h><br>
+Enseigne : <h class="highlight">(Enseigne mentionnée sur KIMSER et confirmée par le commerçant)</h><br>
+Matériel : <h class="highlight">(Copier lignes du matériel sur le parc matériel)</h><br>
+S/N du TPE : <h class="highlight">(N° de série du TPE)</h><br>
+Liaison Caisse : NON <h class="highlight">(OUI: Série / USB / IP)</h><br>
+Motif de la relance : <h class="highlight">(Mentionner le motif et les vérifications/manipulations réalisées)</h><br>
+Adresse de livraison : <h class="highlight">(Adresse de livraison complète)</h><br>
+Téléphone Portable : <br>
+Date de livraison souhaitée : <h class="highlight">(JJ/MM/AAAA)</h><br>
 <br>
 Cordialement.<br>
+</td></tr></tbody></table>
+<table class="in"><tbody>
+<tr><td>
+MAIL:<br>
+A: konecta-att-ru@avem-groupe.com<br>
+Objet: RELANCE MES - Fiche Accepteur FICHE_ACCEPTEUR
+</td></tr><tr><td>
+Uniquement pour nouveau dossier & TPE récent de moins de 30j - Voir <a onclick="window.open('https://faqact.avem-groupe.com/relmesat.oft', '_blank');" class="link">https://faqact.avem-groupe.com/relmesat.oft</a>
+</td></tr></tbody></table>
 </div>
-			<button class="searchbut" onclick="parent.copyInner(document.getElementById('masque2').innerHTML);" >Copier le masque</button> 
+			<button class="searchbut" onclick="parent.copyInner(document.getElementById('masque3').innerHTML);" >Récupérer le masque</button> 
+		</td></tr>
+			<tr class="sep" style=""></tr>
+		<tr class="l" style="height:5px"><td class="g" rowspan="1" style="width:20%; background-color:rgb(240,120,30);"></td></tr>
+	</tbody>
+</table>
+
+
+
+<table id="menu4" style="width:49%; float:initial;" cellspacing="0" cellpadding="1" border="1">
+	<colgroup>
+		<col><col><col>
+	</colgroup>
+	<tbody>
+	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">SWAP : COMPLAISANCE</th>	</tr>						
+		<tr class="sep" style=""></tr>
+		<tr class="l"><td class="s"><div class="field" style="height:40vh; line-height:2.1;">
+<table class="masque"><tbody><tr><td id="masque4">
+Bonjour,<br>
+<br>
+Pouvez-vous changer la config pour l’accepteur de la fiche <h class="highlight">(N°FICHE ACCEPTEUR)</h> s'il vous plait.<br>
+<br>
+Enseigne : <h class="highlight">(Enseigne mentionnée sur KIMSER et confirmée par le commerçant)</h><br>
+Matériel / Modèle TPE  détenu : <h class="highlight">(Copier ligne du matériel sur le parc matériel)</h><br>
+S/N du TPE : <h class="highlight">(N° de série du TPE)</h><br>
+Vers quel modèle souhaite t’il passer : <h class="highlight">(TPE mobile vers mobile uniquement, fixe vers fixe uniquement)</h><br>
+<br>
+Cordialement.
+</td></tr></tbody></table>
+<table class="in"><tbody>
+<tr><td>
+MAIL:<br>
+A: konecta-att-ru@avem-groupe.com<br>
+Objet : Masque pour demande de complaisance 
+</td></tr><tr><td>
+ATTENTION:<br>
+Récupérer informations COM nécessaires pour un SWAP classique, ensuite historiser KIMSER avant l'envoi du mail au RU.<br>
+-Nature : Dépannage technique<br>
+-Objet : 010325 - Assistance fonctionnelle<br>
+Attendre ensuite la réponse du RU, puis procéder à un SWAP classique.<br>
+</td></tr></tbody></table>
+</div>
+			<button class="searchbut" onclick="parent.copyInner(document.getElementById('masque4').innerHTML);" >Récupérer le masque</button> 
 		</td></tr>
 			<tr class="sep" style=""></tr>
 		<tr class="l" style="height:5px"><td class="g" rowspan="1" style="width:20%; background-color:rgb(240,120,30);"></td></tr>
