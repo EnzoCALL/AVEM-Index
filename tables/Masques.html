@@ -5,7 +5,7 @@
 
 <link rel="stylesheet" href="../libs/simplebar/dist/simplebar.min.css">
 <script src="../libs/simplebar/dist/simplebar.js"></script>
-
+<style>.simplebar-scrollbar::before{opacity:0; background-color:rgba(236, 163, 119, 0);}	.simplebar-scrollbar.simplebar-visible:before{opacity:0;}</style>
 </head><body>
 
 
@@ -18,7 +18,7 @@
 	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">HISTORISATION : DAR</th>	</tr>						
 		<tr class="sep" style=""></tr>
 		
-		<tr class="l"><td class="s"><div class="field" style="height:40vh; line-height:2.1;">
+		<tr class="l"><td class="s"><div class="field scroller" style="height:40vh; line-height:2.1;">
 <table class="masque"><tbody><tr><td id="masque1">
 D : COM appel car <h class="highlight">(Raison de l'appel, info sur l'était du TPE à l'instant T)</h><br>
 - <h class="highlight">(Copier la ligne du TPE concerné depuis le parc matériel (Modèle + SN))</h><br>
@@ -72,7 +72,7 @@ Accident mineur : action "Appel Client", PUIS accident mineur, PUIS toutes les t
 	<tbody>
 	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">SWAP : Masque Transport & Site</th>	</tr>						
 		<tr class="sep" style=""></tr>
-		<tr class="l"><td class="s"><div class="field" style="height:40vh; line-height:2.1;">
+		<tr class="l"><td class="s"><div class="field scroller" style="height:40vh; line-height:2.1;">
 <table class="masque"><tbody><tr><td id="masque2">
 DIAGNOSTIC : <h class="highlight">(Historisation de l'appel)</h><br>
 -----------------------INFO GTK PFM-----------------------------<br>
@@ -127,7 +127,7 @@ POINT-RELAIS:<br>
 	<tbody>
 	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">SWAP : Masque MES</th>	</tr>						
 		<tr class="sep" style=""></tr>
-		<tr class="l"><td class="s"><div class="field" style="height:40vh; line-height:2.1;">
+		<tr class="l"><td class="s"><div class="field scroller" style="height:40vh; line-height:2.1;">
 <table class="masque"><tbody><tr><td id="masque3">	
 Bonjour,<br>
 <br>
@@ -170,7 +170,7 @@ Uniquement pour nouveau dossier & TPE récent de moins de 30j - Voir <a onclick=
 	<tbody>
 	<tr style=""><th colspan="1" class="title" style="height:10%; border:1px solid;">SWAP : COMPLAISANCE</th>	</tr>						
 		<tr class="sep" style=""></tr>
-		<tr class="l"><td class="s"><div class="field" style="height:40vh; line-height:2.1;">
+		<tr class="l"><td class="s"><div class="field scroller" style="height:40vh; line-height:2.1;">
 <table class="masque"><tbody><tr><td id="masque4">
 Bonjour,<br>
 <br>
